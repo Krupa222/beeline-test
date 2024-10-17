@@ -1,0 +1,46 @@
+{
+  "client": {
+    "name": "test",
+    "balance": 201,
+    "traffic": 123123123
+  },
+  "setting": {
+    "mainMenu": "*",
+    "prevMenu": "9",
+    "curMsg": "#",
+    "balanceLimit": 200,
+    "balanceLogic": "<="
+  },
+  "menuButtons": [
+    {
+      "mark": "1",
+      "name": "Баланс",
+      "message": "",
+      "nextButtons": []
+    },
+    {
+      "mark": "2",
+      "name": "Интернет трафик",
+      "message": "",
+      "nextButtons": []
+    },
+    {
+      "mark": "3",
+      "name": "Специальные предложения",
+      "message": "",
+      "nextButtons": [
+        {
+          "mark": "1",
+          "name": "Безлимитный интернет",
+          "message": "Успейте подключить до 1 июня и получите безлимитный интернет.",
+          "nextButtons": []
+        },
+        {
+          "mark": "2",
+          "name": "Скидка 50%",
+          "message": "Получите скидку 50% на Абонентскую плату на 3 месяца.",
+          "nextButtons": []
+        }]
+    }
+  ]
+}
