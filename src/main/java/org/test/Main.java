@@ -17,7 +17,7 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         JsonReader jsonReader = new JsonReaderImpl();
-        System.out.println("Введите путь к настройкам в фармате .json");
+        System.out.println("Введите путь к настройкам в формате .json");
         input = scanner.nextLine();
         JsonDTO jsonDTO = jsonReader.getJsonData(input);
         MenuBuilder menuBuilder = new MenuBuilderImpl(jsonDTO);
